@@ -1,1 +1,6 @@
 Django==2.1
+Markdown==2.6.11
+pytz==2018.5
+mod_wsgi
+gunicorn==19.9.0
+psycopg2
