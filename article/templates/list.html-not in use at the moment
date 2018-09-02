@@ -1,0 +1,19 @@
+
+{% load static %}
+
+
+<body>
+	{# {% for name in names%}
+	<h2>{{name}}</h2>
+	{% empty %}
+	  <h1> nothing to show more</h1>
+	{% endfor %}
+	 #}
+
+	 <a href="{% url 'article:detail' id=1 %}"> link to id1 </a>
+	  <img src="{% static 'img/food.png' %}" alt="Italian Trulli" class="img-fluid img-thumbnail"/>
+      <h1>Hello world</>
+<strong>{{current_time}}</strong>
+	
+</body>
+</html>
